@@ -2,19 +2,80 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>TMprains</title>
+<title>TMPRains</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
-body{margin:0;background:#0f0f0f;color:white;font-family:sans-serif}
-iframe{width:100%;height:80vh;border:0}
-button{padding:12px 18px;font-size:16px}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #1a1a1a, #000);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.menu-btn {
+  display: block;
+  width: 100%;
+  padding: 18px;
+  margin: 14px 0;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(135deg, #1e90ff, #0057b8);
+  border-radius: 14px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 6px 0 #003f87;
+}
+
+.menu-btn:active {
+  transform: translateY(6px);
+  box-shadow: 0 0 0 #003f87;
+}
+
+.menu-btn:hover {
+  filter: brightness(1.1);
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 13px;
+  opacity: 0.6;
+}
 </style>
 </head>
+
 <body>
 
-<h1>G4M3S</h1>
+<div class="container">
+  <div class="logo">TMPRains</div>
 
-<iframe src="URL_DEL_JUEGO"></iframe>
+  <a class="menu-btn" href="g4m3s.html">G4M3S</a>
+  <a class="menu-btn" href="UPDATES.html">UPDATES</a>
+  <a class="menu-btn" href="PR0X9S.html">PR0X93S</a>
+  <a class="menu-btn" href="MEMES0UNDS.html">M3M3S S0UNDS</a>
+
+  <div class="footer">
+    © 2025 TMPRains
+  </div>
+</div>
 
 </body>
 </html>
